@@ -5,15 +5,15 @@ public class RightAngleTriangle{
 
 
 	System.out.print("Enter the length of the base of the triangle");
-	int lengthOfBase = inputCollection.nextInt();
+	int digit = inputCollection.nextInt();
 
-
+ 
 	
-	for(int count = 1; count <= 10 ; count++){
+	for(int count = 1; count <= digit ; count++){
 
 			System.out.println(" ");
 
-		for ( lengthOfBase = 1; lengthOfBase <= count ; lengthOfBase++){
+		for ( int counter = 1; count > counter ; counter++){
 		
 			System.out.print( " * ");
 
